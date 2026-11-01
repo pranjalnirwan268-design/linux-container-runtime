@@ -1,0 +1,12 @@
+# --- Build Artifacts ---
+*.o
+mini_container
+
+# --- Container Rootfs ---
+# Track directory via .gitkeep, ignore unpacked files
+rootfs/*
+!rootfs/.gitkeep
+
+# --- IDE & Tooling Cruft ---
+.vscode/
+.kiro/
